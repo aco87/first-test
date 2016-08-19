@@ -1,0 +1,62 @@
+\indexentry{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D@{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}|hyperpage}{2}
+\indexentry{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D@{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}!color@{color}|hyperpage}{2}
+\indexentry{color@{color}!CARD@{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}|hyperpage}{2}
+\indexentry{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D@{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}!number@{number}|hyperpage}{2}
+\indexentry{number@{number}!CARD@{C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}|hyperpage}{2}
+\indexentry{deck@{deck}|hyperpage}{3}
+\indexentry{deck@{deck}!deck@{deck}|hyperpage}{3}
+\indexentry{deck@{deck}!deck@{deck}|hyperpage}{3}
+\indexentry{deck@{deck}!get\discretionary {-}{}{}Cards@{get\discretionary {-}{}{}Cards}|hyperpage}{4}
+\indexentry{get\discretionary {-}{}{}Cards@{get\discretionary {-}{}{}Cards}!deck@{deck}|hyperpage}{4}
+\indexentry{deck@{deck}!get\discretionary {-}{}{}Random\discretionary {-}{}{}Card@{get\discretionary {-}{}{}Random\discretionary {-}{}{}Card}|hyperpage}{4}
+\indexentry{get\discretionary {-}{}{}Random\discretionary {-}{}{}Card@{get\discretionary {-}{}{}Random\discretionary {-}{}{}Card}!deck@{deck}|hyperpage}{4}
+\indexentry{deck@{deck}!is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}|hyperpage}{4}
+\indexentry{is\discretionary {-}{}{}Empty@{is\discretionary {-}{}{}Empty}!deck@{deck}|hyperpage}{4}
+\indexentry{deck@{deck}!remove@{remove}|hyperpage}{4}
+\indexentry{remove@{remove}!deck@{deck}|hyperpage}{4}
+\indexentry{deck@{deck}!cards@{cards}|hyperpage}{4}
+\indexentry{cards@{cards}!deck@{deck}|hyperpage}{4}
+\indexentry{match@{match}|hyperpage}{4}
+\indexentry{match@{match}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!build\discretionary {-}{}{}Master\discretionary {-}{}{}Deck@{build\discretionary {-}{}{}Master\discretionary {-}{}{}Deck}|hyperpage}{6}
+\indexentry{build\discretionary {-}{}{}Master\discretionary {-}{}{}Deck@{build\discretionary {-}{}{}Master\discretionary {-}{}{}Deck}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!deal\discretionary {-}{}{}Cards@{deal\discretionary {-}{}{}Cards}|hyperpage}{6}
+\indexentry{deal\discretionary {-}{}{}Cards@{deal\discretionary {-}{}{}Cards}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!get\discretionary {-}{}{}Cards\discretionary {-}{}{}From\discretionary {-}{}{}Deck@{get\discretionary {-}{}{}Cards\discretionary {-}{}{}From\discretionary {-}{}{}Deck}|hyperpage}{6}
+\indexentry{get\discretionary {-}{}{}Cards\discretionary {-}{}{}From\discretionary {-}{}{}Deck@{get\discretionary {-}{}{}Cards\discretionary {-}{}{}From\discretionary {-}{}{}Deck}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!cards@{cards}|hyperpage}{6}
+\indexentry{cards@{cards}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!decks@{decks}|hyperpage}{6}
+\indexentry{decks@{decks}!match@{match}|hyperpage}{6}
+\indexentry{match@{match}!players@{players}|hyperpage}{6}
+\indexentry{players@{players}!match@{match}|hyperpage}{6}
+\indexentry{player@{player}|hyperpage}{6}
+\indexentry{player@{player}!player@{player}|hyperpage}{7}
+\indexentry{player@{player}!player@{player}|hyperpage}{7}
+\indexentry{player@{player}!get\discretionary {-}{}{}Card@{get\discretionary {-}{}{}Card}|hyperpage}{7}
+\indexentry{get\discretionary {-}{}{}Card@{get\discretionary {-}{}{}Card}!player@{player}|hyperpage}{7}
+\indexentry{player@{player}!print\discretionary {-}{}{}Cards@{print\discretionary {-}{}{}Cards}|hyperpage}{7}
+\indexentry{print\discretionary {-}{}{}Cards@{print\discretionary {-}{}{}Cards}!player@{player}|hyperpage}{7}
+\indexentry{player@{player}!cards@{cards}|hyperpage}{7}
+\indexentry{cards@{cards}!player@{player}|hyperpage}{7}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{8}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{8}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{8}
+\indexentry{mainpage.\discretionary {-}{}{}dox@{mainpage.\discretionary {-}{}{}dox}|hyperpage}{9}
+\indexentry{match.\discretionary {-}{}{}cpp@{match.\discretionary {-}{}{}cpp}|hyperpage}{9}
+\indexentry{match.\discretionary {-}{}{}h@{match.\discretionary {-}{}{}h}|hyperpage}{9}
+\indexentry{match.\discretionary {-}{}{}h@{match.\discretionary {-}{}{}h}!P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S@{P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}|hyperpage}{10}
+\indexentry{P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S@{P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}!match.h@{match.\discretionary {-}{}{}h}|hyperpage}{10}
+\indexentry{match.\discretionary {-}{}{}h@{match.\discretionary {-}{}{}h}!S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S@{S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S}|hyperpage}{10}
+\indexentry{S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S@{S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S}!match.h@{match.\discretionary {-}{}{}h}|hyperpage}{10}
+\indexentry{player.\discretionary {-}{}{}cpp@{player.\discretionary {-}{}{}cpp}|hyperpage}{11}
+\indexentry{player.\discretionary {-}{}{}h@{player.\discretionary {-}{}{}h}|hyperpage}{11}
+\indexentry{set.\discretionary {-}{}{}cpp@{set.\discretionary {-}{}{}cpp}|hyperpage}{12}
+\indexentry{set.\discretionary {-}{}{}h@{set.\discretionary {-}{}{}h}|hyperpage}{12}
+\indexentry{set.\discretionary {-}{}{}h@{set.\discretionary {-}{}{}h}!C\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}S@{C\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}S}|hyperpage}{13}
+\indexentry{C\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}S@{C\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}S}!set.h@{set.\discretionary {-}{}{}h}|hyperpage}{13}
+\indexentry{set.\discretionary {-}{}{}h@{set.\discretionary {-}{}{}h}!N\discretionary {-}{}{}U\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S@{N\discretionary {-}{}{}U\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}|hyperpage}{13}
+\indexentry{N\discretionary {-}{}{}U\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S@{N\discretionary {-}{}{}U\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}!set.h@{set.\discretionary {-}{}{}h}|hyperpage}{13}
+\indexentry{set.\discretionary {-}{}{}h@{set.\discretionary {-}{}{}h}!S\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E@{S\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}|hyperpage}{13}
+\indexentry{S\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E@{S\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}!set.h@{set.\discretionary {-}{}{}h}|hyperpage}{13}

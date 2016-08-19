@@ -1,0 +1,121 @@
+\begin{theindex}
+
+  \item {build\discretionary {-}{}{}Master\discretionary {-}{}{}Deck}
+    \subitem {match}, \hyperpage{6}
+
+  \indexspace
+
+  \item {C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}, 
+		\hyperpage{2}
+    \subitem {color}, \hyperpage{2}
+    \subitem {number}, \hyperpage{2}
+  \item {C\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}S}
+    \subitem {set.\discretionary {-}{}{}h}, \hyperpage{13}
+  \item {cards}
+    \subitem {deck}, \hyperpage{4}
+    \subitem {match}, \hyperpage{6}
+    \subitem {player}, \hyperpage{7}
+  \item {color}
+    \subitem {C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}, 
+		\hyperpage{2}
+
+  \indexspace
+
+  \item {deal\discretionary {-}{}{}Cards}
+    \subitem {match}, \hyperpage{6}
+  \item {deck}, \hyperpage{2}
+    \subitem {cards}, \hyperpage{4}
+    \subitem {deck}, \hyperpage{3}
+    \subitem {get\discretionary {-}{}{}Cards}, \hyperpage{4}
+    \subitem {get\discretionary {-}{}{}Random\discretionary {-}{}{}Card}, 
+		\hyperpage{4}
+    \subitem {is\discretionary {-}{}{}Empty}, \hyperpage{4}
+    \subitem {remove}, \hyperpage{4}
+  \item {decks}
+    \subitem {match}, \hyperpage{6}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}Card}
+    \subitem {player}, \hyperpage{7}
+  \item {get\discretionary {-}{}{}Cards}
+    \subitem {deck}, \hyperpage{4}
+  \item {get\discretionary {-}{}{}Cards\discretionary {-}{}{}From\discretionary {-}{}{}Deck}
+    \subitem {match}, \hyperpage{6}
+  \item {get\discretionary {-}{}{}Random\discretionary {-}{}{}Card}
+    \subitem {deck}, \hyperpage{4}
+
+  \indexspace
+
+  \item {is\discretionary {-}{}{}Empty}
+    \subitem {deck}, \hyperpage{4}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+    \subitem {main}, \hyperpage{8}
+  \item {mainpage.\discretionary {-}{}{}dox}, \hyperpage{9}
+  \item {match}, \hyperpage{4}
+    \subitem {build\discretionary {-}{}{}Master\discretionary {-}{}{}Deck}, 
+		\hyperpage{6}
+    \subitem {cards}, \hyperpage{6}
+    \subitem {deal\discretionary {-}{}{}Cards}, \hyperpage{6}
+    \subitem {decks}, \hyperpage{6}
+    \subitem {get\discretionary {-}{}{}Cards\discretionary {-}{}{}From\discretionary {-}{}{}Deck}, 
+		\hyperpage{6}
+    \subitem {match}, \hyperpage{6}
+    \subitem {players}, \hyperpage{6}
+  \item {match.\discretionary {-}{}{}cpp}, \hyperpage{9}
+  \item {match.\discretionary {-}{}{}h}, \hyperpage{9}
+    \subitem {P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}, 
+		\hyperpage{10}
+    \subitem {S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {N\discretionary {-}{}{}U\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}
+    \subitem {set.\discretionary {-}{}{}h}, \hyperpage{13}
+  \item {number}
+    \subitem {C\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}D}, 
+		\hyperpage{2}
+
+  \indexspace
+
+  \item {P\discretionary {-}{}{}L\discretionary {-}{}{}A\discretionary {-}{}{}Y\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}
+    \subitem {match.\discretionary {-}{}{}h}, \hyperpage{10}
+  \item {player}, \hyperpage{6}
+    \subitem {cards}, \hyperpage{7}
+    \subitem {get\discretionary {-}{}{}Card}, \hyperpage{7}
+    \subitem {player}, \hyperpage{7}
+    \subitem {print\discretionary {-}{}{}Cards}, \hyperpage{7}
+  \item {player.\discretionary {-}{}{}cpp}, \hyperpage{11}
+  \item {player.\discretionary {-}{}{}h}, \hyperpage{11}
+  \item {players}
+    \subitem {match}, \hyperpage{6}
+  \item {print\discretionary {-}{}{}Cards}
+    \subitem {player}, \hyperpage{7}
+
+  \indexspace
+
+  \item {remove}
+    \subitem {deck}, \hyperpage{4}
+
+  \indexspace
+
+  \item {S\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}
+    \subitem {set.\discretionary {-}{}{}h}, \hyperpage{13}
+  \item {S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}C\discretionary {-}{}{}K\discretionary {-}{}{}S}
+    \subitem {match.\discretionary {-}{}{}h}, \hyperpage{10}
+  \item {set.\discretionary {-}{}{}cpp}, \hyperpage{12}
+  \item {set.\discretionary {-}{}{}h}, \hyperpage{12}
+    \subitem {C\discretionary {-}{}{}O\discretionary {-}{}{}L\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}S}, 
+		\hyperpage{13}
+    \subitem {N\discretionary {-}{}{}U\discretionary {-}{}{}M\discretionary {-}{}{}B\discretionary {-}{}{}E\discretionary {-}{}{}R\discretionary {-}{}{}S}, 
+		\hyperpage{13}
+    \subitem {S\discretionary {-}{}{}E\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}, 
+		\hyperpage{13}
+
+\end{theindex}

@@ -1,0 +1,216 @@
+\hypertarget{classdeck}{\subsection{deck Klassenreferenz}
+\label{classdeck}\index{deck@{deck}}
+}
+
+
+Die Klasse deck repräsentiert ein gewöhnliches Kartendeck.  
+
+
+
+
+{\ttfamily \#include $<$set.\-h$>$}
+
+
+
+Zusammengehörigkeiten von deck\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=182pt]{d9/d22/classdeck__coll__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdeck_a2ff8465ba7b13201bdf650fe461b442e}{deck} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classdeck_a2ff8465ba7b13201bdf650fe461b442e}{deck\-::deck} Füllt ein Deck mit \hyperlink{set_8h_a883046b8f0d1f6368a9b9eaf5ca36af3}{C\-O\-L\-O\-R\-S}$\ast$\hyperlink{set_8h_a52c6eed29863def7303121b65975e83b}{N\-U\-M\-B\-E\-R\-S} Karten auf. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{struct_c_a_r_d}{C\-A\-R\-D} $>$ \hyperlink{classdeck_a26cfcf4196728cde8b904dbcf63bc815}{get\-Cards} (void)
+\item 
+int \hyperlink{classdeck_a3a190c2877d3822b7379d6a9fa2c050b}{is\-Empty} ()
+\item 
+\hyperlink{struct_c_a_r_d}{C\-A\-R\-D} \hyperlink{classdeck_a8e33dbdafe69c55d968526d9543245ec}{get\-Random\-Card} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classdeck_a8e33dbdafe69c55d968526d9543245ec}{deck\-::get\-Random\-Card} zieht eine zufällige Karte auf dem Kartendeck und entfernt diese. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Private Methoden}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdeck_a093b7a93c4b13b67a285ae18f6b10f7a}{remove} (std\-::vector$<$ \hyperlink{struct_c_a_r_d}{C\-A\-R\-D} $>$ \&vec, size\-\_\-t pos)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classdeck_a093b7a93c4b13b67a285ae18f6b10f7a}{deck\-::remove} Entfernt aus dem Vector vec das Item an der Stelle pos. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Private Attribute}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ \hyperlink{struct_c_a_r_d}{C\-A\-R\-D} $>$ \hyperlink{classdeck_aef1c10a40a316c2198356d579e77c915}{cards}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Ausführliche Beschreibung}
+Die Klasse deck repräsentiert ein gewöhnliches Kartendeck. 
+
+Hier dient sie um größere Kartendecks innerhalb eines Matches zusammen zu stellen. 
+
+Definiert in Zeile 29 der Datei set.\-h.
+
+
+
+\subsubsection{Beschreibung der Konstruktoren und Destruktoren}
+\hypertarget{classdeck_a2ff8465ba7b13201bdf650fe461b442e}{\index{deck@{deck}!deck@{deck}}
+\index{deck@{deck}!deck@{deck}}
+\paragraph[{deck}]{\setlength{\rightskip}{0pt plus 5cm}deck\-::deck (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classdeck_a2ff8465ba7b13201bdf650fe461b442e}
+
+
+\hyperlink{classdeck_a2ff8465ba7b13201bdf650fe461b442e}{deck\-::deck} Füllt ein Deck mit \hyperlink{set_8h_a883046b8f0d1f6368a9b9eaf5ca36af3}{C\-O\-L\-O\-R\-S}$\ast$\hyperlink{set_8h_a52c6eed29863def7303121b65975e83b}{N\-U\-M\-B\-E\-R\-S} Karten auf. 
+
+
+
+Definiert in Zeile 6 der Datei set.\-cpp.
+
+
+
+Benutzt cards, C\-A\-R\-D\-::color, C\-O\-L\-O\-R\-S, C\-A\-R\-D\-::number und N\-U\-M\-B\-E\-R\-S.
+
+
+
+\subsubsection{Dokumentation der Elementfunktionen}
+\hypertarget{classdeck_a26cfcf4196728cde8b904dbcf63bc815}{\index{deck@{deck}!get\-Cards@{get\-Cards}}
+\index{get\-Cards@{get\-Cards}!deck@{deck}}
+\paragraph[{get\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf C\-A\-R\-D}$>$ deck\-::get\-Cards (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdeck_a26cfcf4196728cde8b904dbcf63bc815}
+
+
+Definiert in Zeile 33 der Datei set.\-h.
+
+
+
+Benutzt cards.
+
+
+
+Wird benutzt von match\-::get\-Cards\-From\-Deck().
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/dab/classdeck_a26cfcf4196728cde8b904dbcf63bc815_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classdeck_a8e33dbdafe69c55d968526d9543245ec}{\index{deck@{deck}!get\-Random\-Card@{get\-Random\-Card}}
+\index{get\-Random\-Card@{get\-Random\-Card}!deck@{deck}}
+\paragraph[{get\-Random\-Card}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-A\-R\-D} deck\-::get\-Random\-Card (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classdeck_a8e33dbdafe69c55d968526d9543245ec}
+
+
+\hyperlink{classdeck_a8e33dbdafe69c55d968526d9543245ec}{deck\-::get\-Random\-Card} zieht eine zufällige Karte auf dem Kartendeck und entfernt diese. 
+
+\begin{DoxyReturn}{Rückgabe}
+gezogene Karte. 
+\end{DoxyReturn}
+
+
+Definiert in Zeile 22 der Datei set.\-cpp.
+
+
+
+Benutzt cards.
+
+
+
+Wird benutzt von match\-::get\-Cards\-From\-Deck().
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/dab/classdeck_a8e33dbdafe69c55d968526d9543245ec_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classdeck_a3a190c2877d3822b7379d6a9fa2c050b}{\index{deck@{deck}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!deck@{deck}}
+\paragraph[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}int deck\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdeck_a3a190c2877d3822b7379d6a9fa2c050b}
+
+
+Definiert in Zeile 34 der Datei set.\-h.
+
+
+
+Benutzt cards.
+
+
+
+Wird benutzt von match\-::get\-Cards\-From\-Deck().
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/dab/classdeck_a3a190c2877d3822b7379d6a9fa2c050b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classdeck_a093b7a93c4b13b67a285ae18f6b10f7a}{\index{deck@{deck}!remove@{remove}}
+\index{remove@{remove}!deck@{deck}}
+\paragraph[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void deck\-::remove (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ {\bf C\-A\-R\-D} $>$ \&}]{vec, }
+\item[{size\-\_\-t}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classdeck_a093b7a93c4b13b67a285ae18f6b10f7a}
+
+
+\hyperlink{classdeck_a093b7a93c4b13b67a285ae18f6b10f7a}{deck\-::remove} Entfernt aus dem Vector vec das Item an der Stelle pos. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em vec} & vector aus welchem ein Item entfernt werden soll. \\
+\hline
+{\em pos} & Position von welchem das Item entfernt werden soll. \\
+\hline
+\end{DoxyParams}
+
+
+Definiert in Zeile 37 der Datei set.\-cpp.
+
+
+
+\subsubsection{Dokumentation der Datenelemente}
+\hypertarget{classdeck_aef1c10a40a316c2198356d579e77c915}{\index{deck@{deck}!cards@{cards}}
+\index{cards@{cards}!deck@{deck}}
+\paragraph[{cards}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf C\-A\-R\-D}$>$ deck\-::cards\hspace{0.3cm}{\ttfamily [private]}}}\label{classdeck_aef1c10a40a316c2198356d579e77c915}
+
+
+Definiert in Zeile 39 der Datei set.\-h.
+
+
+
+Wird benutzt von deck(), get\-Cards(), get\-Random\-Card() und is\-Empty().
+
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{set_8h}{set.\-h}\item 
+\hyperlink{set_8cpp}{set.\-cpp}\end{DoxyCompactItemize}

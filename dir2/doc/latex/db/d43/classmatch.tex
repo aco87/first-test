@@ -1,0 +1,259 @@
+\hypertarget{classmatch}{\subsection{match Klassenreferenz}
+\label{classmatch}\index{match@{match}}
+}
+
+
+Die Klasse \hyperlink{classmatch}{match} generiert eine Rund eines Kartenspiels an welchem \hyperlink{match_8h_a35874ee321ab82a60db7957e8fd6c61c}{P\-L\-A\-Y\-E\-R\-S} Spieler teilnehmen und \hyperlink{match_8h_a63cfbde7ca4628196a360676e43d810a}{S\-I\-Z\-E\-\_\-\-D\-E\-C\-K\-S} Decks verwendet werden.  
+
+
+
+
+{\ttfamily \#include $<$match.\-h$>$}
+
+
+
+Zusammengehörigkeiten von match\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{d6/d2b/classmatch__coll__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmatch_a324c10417644283bb7101859392ed252}{match} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classmatch_a324c10417644283bb7101859392ed252}{match\-::match} Erstellt das Masterdeck aus bestehenden Decks und verteilt die Karten an alle Spieler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Private Methoden}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classmatch_a46982e55a04f6a60fdd8057b5acbf64f}{build\-Master\-Deck} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classmatch_a46982e55a04f6a60fdd8057b5acbf64f}{match\-::build\-Master\-Deck} Wählt alle verfügbaren Decks aus um ihre Karten einzusammeln. \end{DoxyCompactList}\item 
+void \hyperlink{classmatch_a690fc86b621fdd5367a35376fc85130a}{get\-Cards\-From\-Deck} (\hyperlink{classdeck}{deck} t\-Deck)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classmatch_a690fc86b621fdd5367a35376fc85130a}{match\-::get\-Cards\-From\-Deck} Verschiebt die Karten von t\-Deck in \hyperlink{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}{cards}. \end{DoxyCompactList}\item 
+void \hyperlink{classmatch_ab4c417d094231254db1d0fb16788d9d1}{deal\-Cards} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Private Attribute}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ \hyperlink{struct_c_a_r_d}{C\-A\-R\-D} $>$ \hyperlink{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}{cards}
+\item 
+\hyperlink{classdeck}{deck} \hyperlink{classmatch_a98a4bea4adf4d10ede8436486cc38418}{decks} \mbox{[}\hyperlink{match_8h_a63cfbde7ca4628196a360676e43d810a}{S\-I\-Z\-E\-\_\-\-D\-E\-C\-K\-S}\mbox{]}
+\item 
+\hyperlink{classplayer}{player} \hyperlink{classmatch_a07c8604710b0af37d2e1c3f84e5fca6a}{players} \mbox{[}\hyperlink{match_8h_a35874ee321ab82a60db7957e8fd6c61c}{P\-L\-A\-Y\-E\-R\-S}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Ausführliche Beschreibung}
+Die Klasse \hyperlink{classmatch}{match} generiert eine Rund eines Kartenspiels an welchem \hyperlink{match_8h_a35874ee321ab82a60db7957e8fd6c61c}{P\-L\-A\-Y\-E\-R\-S} Spieler teilnehmen und \hyperlink{match_8h_a63cfbde7ca4628196a360676e43d810a}{S\-I\-Z\-E\-\_\-\-D\-E\-C\-K\-S} Decks verwendet werden. 
+
+Dabei werden an alle Teilnehmer gleich viele Karten aus den zuvor erstellten Decks zufällig verteilt. 
+
+Definiert in Zeile 18 der Datei match.\-h.
+
+
+
+\subsubsection{Beschreibung der Konstruktoren und Destruktoren}
+\hypertarget{classmatch_a324c10417644283bb7101859392ed252}{\index{match@{match}!match@{match}}
+\index{match@{match}!match@{match}}
+\paragraph[{match}]{\setlength{\rightskip}{0pt plus 5cm}match\-::match (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmatch_a324c10417644283bb7101859392ed252}
+
+
+\hyperlink{classmatch_a324c10417644283bb7101859392ed252}{match\-::match} Erstellt das Masterdeck aus bestehenden Decks und verteilt die Karten an alle Spieler. 
+
+
+
+Definiert in Zeile 6 der Datei match.\-cpp.
+
+
+
+Benutzt build\-Master\-Deck(), deal\-Cards(), players und player\-::print\-Cards().
+
+
+
+Hier ist ein Graph, der zeigt, was diese Funktion aufruft\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d43/classmatch_a324c10417644283bb7101859392ed252_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsubsection{Dokumentation der Elementfunktionen}
+\hypertarget{classmatch_a46982e55a04f6a60fdd8057b5acbf64f}{\index{match@{match}!build\-Master\-Deck@{build\-Master\-Deck}}
+\index{build\-Master\-Deck@{build\-Master\-Deck}!match@{match}}
+\paragraph[{build\-Master\-Deck}]{\setlength{\rightskip}{0pt plus 5cm}void match\-::build\-Master\-Deck (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classmatch_a46982e55a04f6a60fdd8057b5acbf64f}
+
+
+\hyperlink{classmatch_a46982e55a04f6a60fdd8057b5acbf64f}{match\-::build\-Master\-Deck} Wählt alle verfügbaren Decks aus um ihre Karten einzusammeln. 
+
+
+
+Definiert in Zeile 19 der Datei match.\-cpp.
+
+
+
+Benutzt decks, get\-Cards\-From\-Deck() und S\-I\-Z\-E\-\_\-\-D\-E\-C\-K\-S.
+
+
+
+Wird benutzt von match().
+
+
+
+Hier ist ein Graph, der zeigt, was diese Funktion aufruft\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d43/classmatch_a46982e55a04f6a60fdd8057b5acbf64f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{db/d43/classmatch_a46982e55a04f6a60fdd8057b5acbf64f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classmatch_ab4c417d094231254db1d0fb16788d9d1}{\index{match@{match}!deal\-Cards@{deal\-Cards}}
+\index{deal\-Cards@{deal\-Cards}!match@{match}}
+\paragraph[{deal\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}void match\-::deal\-Cards (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classmatch_ab4c417d094231254db1d0fb16788d9d1}
+
+
+Wird benutzt von match().
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{db/d43/classmatch_ab4c417d094231254db1d0fb16788d9d1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classmatch_a690fc86b621fdd5367a35376fc85130a}{\index{match@{match}!get\-Cards\-From\-Deck@{get\-Cards\-From\-Deck}}
+\index{get\-Cards\-From\-Deck@{get\-Cards\-From\-Deck}!match@{match}}
+\paragraph[{get\-Cards\-From\-Deck}]{\setlength{\rightskip}{0pt plus 5cm}void match\-::get\-Cards\-From\-Deck (
+\begin{DoxyParamCaption}
+\item[{{\bf deck}}]{t\-Deck}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classmatch_a690fc86b621fdd5367a35376fc85130a}
+
+
+\hyperlink{classmatch_a690fc86b621fdd5367a35376fc85130a}{match\-::get\-Cards\-From\-Deck} Verschiebt die Karten von t\-Deck in \hyperlink{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}{cards}. 
+
+\begin{DoxyAuthor}{Autor}
+Andreas Conrads 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Datum}
+4.\-1.\-1
+\end{DoxyDate}
+Nimmt alle Karten (\hyperlink{struct_c_a_r_d}{C\-A\-R\-D}) in zufälliger Reinfolge aus dem übergebenem Deck (\hyperlink{classdeck}{deck}) und sortierte sie in die Liste aller gesammelten Karten \hyperlink{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}{cards} der Klasse \hyperlink{classmatch}{match} ein. 
+\begin{DoxyParams}{Parameter}
+{\em t\-Deck} & Deck aus welchem die Karten in das Masterdeck \hyperlink{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}{cards} verschoben werden. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Noch zu erledigen}
+\item[\hyperlink{todo__todo000001}{Noch zu erledigen}]Es gibt hier nichts mehr zutun! \end{DoxyRefDesc}
+\begin{DoxyRefDesc}{Fehler}
+\item[\hyperlink{bug__bug000001}{Fehler}]Es ist kein Bug vorhanden. \end{DoxyRefDesc}
+
+
+Definiert in Zeile 34 der Datei match.\-cpp.
+
+
+
+Benutzt cards, deck\-::get\-Cards(), deck\-::get\-Random\-Card() und deck\-::is\-Empty().
+
+
+
+Wird benutzt von build\-Master\-Deck().
+
+
+
+Hier ist ein Graph, der zeigt, was diese Funktion aufruft\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d43/classmatch_a690fc86b621fdd5367a35376fc85130a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d43/classmatch_a690fc86b621fdd5367a35376fc85130a_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsubsection{Dokumentation der Datenelemente}
+\hypertarget{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}{\index{match@{match}!cards@{cards}}
+\index{cards@{cards}!match@{match}}
+\paragraph[{cards}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf C\-A\-R\-D}$>$ match\-::cards\hspace{0.3cm}{\ttfamily [private]}}}\label{classmatch_afe9f4e5f94c2c9873db6640281e12dcf}
+
+
+Definiert in Zeile 27 der Datei match.\-h.
+
+
+
+Wird benutzt von get\-Cards\-From\-Deck().
+
+\hypertarget{classmatch_a98a4bea4adf4d10ede8436486cc38418}{\index{match@{match}!decks@{decks}}
+\index{decks@{decks}!match@{match}}
+\paragraph[{decks}]{\setlength{\rightskip}{0pt plus 5cm}{\bf deck} match\-::decks\mbox{[}{\bf S\-I\-Z\-E\-\_\-\-D\-E\-C\-K\-S}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classmatch_a98a4bea4adf4d10ede8436486cc38418}
+
+
+Definiert in Zeile 29 der Datei match.\-h.
+
+
+
+Wird benutzt von build\-Master\-Deck().
+
+\hypertarget{classmatch_a07c8604710b0af37d2e1c3f84e5fca6a}{\index{match@{match}!players@{players}}
+\index{players@{players}!match@{match}}
+\paragraph[{players}]{\setlength{\rightskip}{0pt plus 5cm}{\bf player} match\-::players\mbox{[}{\bf P\-L\-A\-Y\-E\-R\-S}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classmatch_a07c8604710b0af37d2e1c3f84e5fca6a}
+
+
+Definiert in Zeile 30 der Datei match.\-h.
+
+
+
+Wird benutzt von match().
+
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{match_8h}{match.\-h}\item 
+\hyperlink{match_8cpp}{match.\-cpp}\end{DoxyCompactItemize}

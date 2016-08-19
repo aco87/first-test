@@ -1,0 +1,147 @@
+\hypertarget{classplayer}{\subsection{player Klassenreferenz}
+\label{classplayer}\index{player@{player}}
+}
+
+
+Die Klasse \hyperlink{classplayer}{player} stellt einen Teilernehmer des Kartenspiels \hyperlink{classmatch}{match} dar.  
+
+
+
+
+{\ttfamily \#include $<$player.\-h$>$}
+
+
+
+Zusammengehörigkeiten von player\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=156pt]{d9/d7a/classplayer__coll__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Öffentliche Methoden}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classplayer_a97de83bce15f880241f561b55b016b02}{player} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classplayer_a97de83bce15f880241f561b55b016b02}{player\-::player} \end{DoxyCompactList}\item 
+void \hyperlink{classplayer_a7ee9bffda2073c5ffa036fd978cea86d}{get\-Card} (\hyperlink{struct_c_a_r_d}{C\-A\-R\-D} card)
+\begin{DoxyCompactList}\small\item\em get\-Card \end{DoxyCompactList}\item 
+void \hyperlink{classplayer_a3dc68b6bb16cc8cb5d2a8bdbe9979bda}{print\-Cards} ()
+\begin{DoxyCompactList}\small\item\em print\-Cards \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Private Attribute}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ \hyperlink{struct_c_a_r_d}{C\-A\-R\-D} $>$ \hyperlink{classplayer_aceb04c78e103fb236c37fe33354032a9}{cards}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Ausführliche Beschreibung}
+Die Klasse \hyperlink{classplayer}{player} stellt einen Teilernehmer des Kartenspiels \hyperlink{classmatch}{match} dar. 
+
+Der Spieler kann Karten annehmen und seine Handkarten printen. 
+
+Definiert in Zeile 21 der Datei player.\-h.
+
+
+
+\subsubsection{Beschreibung der Konstruktoren und Destruktoren}
+\hypertarget{classplayer_a97de83bce15f880241f561b55b016b02}{\index{player@{player}!player@{player}}
+\index{player@{player}!player@{player}}
+\paragraph[{player}]{\setlength{\rightskip}{0pt plus 5cm}player\-::player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classplayer_a97de83bce15f880241f561b55b016b02}
+
+
+\hyperlink{classplayer_a97de83bce15f880241f561b55b016b02}{player\-::player} 
+
+
+
+Definiert in Zeile 6 der Datei player.\-cpp.
+
+
+
+\subsubsection{Dokumentation der Elementfunktionen}
+\hypertarget{classplayer_a7ee9bffda2073c5ffa036fd978cea86d}{\index{player@{player}!get\-Card@{get\-Card}}
+\index{get\-Card@{get\-Card}!player@{player}}
+\paragraph[{get\-Card}]{\setlength{\rightskip}{0pt plus 5cm}void player\-::get\-Card (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-A\-R\-D}}]{card}
+\end{DoxyParamCaption}
+)}}\label{classplayer_a7ee9bffda2073c5ffa036fd978cea86d}
+
+
+get\-Card 
+
+\hyperlink{classplayer_a7ee9bffda2073c5ffa036fd978cea86d}{player\-::get\-Card} deals a card to the player
+
+
+\begin{DoxyParams}{Parameter}
+{\em card} & \\
+\hline
+{\em card} & which is dealed to the player \\
+\hline
+\end{DoxyParams}
+
+
+Definiert in Zeile 14 der Datei player.\-cpp.
+
+
+
+Benutzt cards.
+
+\hypertarget{classplayer_a3dc68b6bb16cc8cb5d2a8bdbe9979bda}{\index{player@{player}!print\-Cards@{print\-Cards}}
+\index{print\-Cards@{print\-Cards}!player@{player}}
+\paragraph[{print\-Cards}]{\setlength{\rightskip}{0pt plus 5cm}void player\-::print\-Cards (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classplayer_a3dc68b6bb16cc8cb5d2a8bdbe9979bda}
+
+
+print\-Cards 
+
+\hyperlink{classplayer_a3dc68b6bb16cc8cb5d2a8bdbe9979bda}{player\-::print\-Cards} listet alle Handkarten des Spielers auf. 
+
+Definiert in Zeile 22 der Datei player.\-cpp.
+
+
+
+Benutzt cards.
+
+
+
+Wird benutzt von match\-::match().
+
+
+
+Hier ist ein Graph der zeigt, wo diese Funktion aufgerufen wird\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{dc/d2e/classplayer_a3dc68b6bb16cc8cb5d2a8bdbe9979bda_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsubsection{Dokumentation der Datenelemente}
+\hypertarget{classplayer_aceb04c78e103fb236c37fe33354032a9}{\index{player@{player}!cards@{cards}}
+\index{cards@{cards}!player@{player}}
+\paragraph[{cards}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<${\bf C\-A\-R\-D}$>$ player\-::cards\hspace{0.3cm}{\ttfamily [private]}}}\label{classplayer_aceb04c78e103fb236c37fe33354032a9}
+
+
+Definiert in Zeile 38 der Datei player.\-h.
+
+
+
+Wird benutzt von get\-Card() und print\-Cards().
+
+
+
+Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{player_8h}{player.\-h}\item 
+\hyperlink{player_8cpp}{player.\-cpp}\end{DoxyCompactItemize}

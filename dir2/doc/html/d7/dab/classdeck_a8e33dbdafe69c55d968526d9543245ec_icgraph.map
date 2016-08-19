@@ -1,0 +1,5 @@
+<map id="deck::getRandomCard" name="deck::getRandomCard">
+<area shape="rect" id="node2" href="$db/d43/classmatch.html#a690fc86b621fdd5367a35376fc85130a" title="match::getCardsFromDeck Verschiebt die Karten von tDeck in cards. " alt="" coords="209,5,389,32"/>
+<area shape="rect" id="node3" href="$db/d43/classmatch.html#a46982e55a04f6a60fdd8057b5acbf64f" title="match::buildMasterDeck Wählt alle verfügbaren Decks aus um ihre Karten einzusammeln. " alt="" coords="438,5,602,32"/>
+<area shape="rect" id="node4" href="$db/d43/classmatch.html#a324c10417644283bb7101859392ed252" title="match::match Erstellt das Masterdeck aus bestehenden Decks und verteilt die Karten an alle Spieler..." alt="" coords="651,5,754,32"/>
+</map>

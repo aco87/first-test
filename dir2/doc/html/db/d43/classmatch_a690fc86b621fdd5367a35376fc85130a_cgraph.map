@@ -1,0 +1,5 @@
+<map id="match::getCardsFromDeck" name="match::getCardsFromDeck">
+<area shape="rect" id="node2" href="$d7/dab/classdeck.html#a26cfcf4196728cde8b904dbcf63bc815" title="deck::getCards" alt="" coords="257,5,367,32"/>
+<area shape="rect" id="node3" href="$d7/dab/classdeck.html#a8e33dbdafe69c55d968526d9543245ec" title="deck::getRandomCard zieht eine zufällige Karte auf dem Kartendeck und entfernt diese. " alt="" coords="235,56,389,83"/>
+<area shape="rect" id="node4" href="$d7/dab/classdeck.html#a3a190c2877d3822b7379d6a9fa2c050b" title="deck::isEmpty" alt="" coords="259,107,365,133"/>
+</map>

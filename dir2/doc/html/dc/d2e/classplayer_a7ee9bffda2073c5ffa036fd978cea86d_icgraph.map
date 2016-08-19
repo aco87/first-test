@@ -1,0 +1,4 @@
+<map id="player::getCard" name="player::getCard">
+<area shape="rect" id="node2" href="$db/d43/classmatch.html#ab4c417d094231254db1d0fb16788d9d1" title="match::dealCards verteilt die Karten des Spiels gleichmäßig an alle Spieler " alt="" coords="165,5,291,32"/>
+<area shape="rect" id="node3" href="$db/d43/classmatch.html#a324c10417644283bb7101859392ed252" title="match::match Erstellt das Masterdeck aus bestehenden Decks und verteilt die Karten an alle Spieler..." alt="" coords="339,5,442,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="match::buildMasterDeck" name="match::buildMasterDeck">
+<area shape="rect" id="node2" href="$db/d43/classmatch.html#a690fc86b621fdd5367a35376fc85130a" title="match::getCardsFromDeck Verschiebt die Karten von tDeck in cards. " alt="" coords="219,56,399,83"/>
+<area shape="rect" id="node3" href="$d7/dab/classdeck.html#a26cfcf4196728cde8b904dbcf63bc815" title="deck::getCards" alt="" coords="470,5,581,32"/>
+<area shape="rect" id="node4" href="$d7/dab/classdeck.html#a3a190c2877d3822b7379d6a9fa2c050b" title="deck::isEmpty" alt="" coords="472,56,579,83"/>
+<area shape="rect" id="node5" href="$d7/dab/classdeck.html#a8e33dbdafe69c55d968526d9543245ec" title="deck::getRandomCard zieht eine zufällige Karte auf dem Kartendeck und entfernt diese. " alt="" coords="449,107,602,133"/>
+</map>

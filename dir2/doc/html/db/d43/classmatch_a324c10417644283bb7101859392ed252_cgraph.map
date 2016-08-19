@@ -1,0 +1,9 @@
+<map id="match::match" name="match::match">
+<area shape="rect" id="node2" href="$db/d43/classmatch.html#a46982e55a04f6a60fdd8057b5acbf64f" title="match::buildMasterDeck Wählt alle verfügbaren Decks aus um ihre Karten einzusammeln. " alt="" coords="158,56,322,83"/>
+<area shape="rect" id="node7" href="$db/d43/classmatch.html#ab4c417d094231254db1d0fb16788d9d1" title="match::dealCards" alt="" coords="177,107,303,133"/>
+<area shape="rect" id="node8" href="$dc/d2e/classplayer.html#a3dc68b6bb16cc8cb5d2a8bdbe9979bda" title="printCards " alt="" coords="177,157,303,184"/>
+<area shape="rect" id="node3" href="$db/d43/classmatch.html#a690fc86b621fdd5367a35376fc85130a" title="match::getCardsFromDeck Verschiebt die Karten von tDeck in cards. " alt="" coords="371,56,551,83"/>
+<area shape="rect" id="node4" href="$d7/dab/classdeck.html#a26cfcf4196728cde8b904dbcf63bc815" title="deck::getCards" alt="" coords="622,5,733,32"/>
+<area shape="rect" id="node5" href="$d7/dab/classdeck.html#a3a190c2877d3822b7379d6a9fa2c050b" title="deck::isEmpty" alt="" coords="624,56,731,83"/>
+<area shape="rect" id="node6" href="$d7/dab/classdeck.html#a8e33dbdafe69c55d968526d9543245ec" title="deck::getRandomCard zieht eine zufällige Karte auf dem Kartendeck und entfernt diese. " alt="" coords="601,107,754,133"/>
+</map>
